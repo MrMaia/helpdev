@@ -48,14 +48,14 @@ function Home() {
             código.
           </p>
           <div className="flex flex-col md:flex-row gap-5 justify-center lg:justify-start">
-            <button className="btn btn-outline btn-warning p-6 flex items-center gap-2">
+            <a className="btn btn-outline btn-warning p-6 flex items-center gap-2" href="/categorias">
               <FaBook />
               Explorar Links <FaArrowRight />
-            </button>
-            <button className="btn btn-dash btn-warning p-6 flex items-center gap-2">
+            </a>
+            <a href="https://github.com/MrMaia/helpdev" className="btn btn-dash btn-warning p-6 flex items-center gap-2" target="_blank">
               <FaGithub />
               Projeto no GitHub <FaArrowUpRightFromSquare />
-            </button>
+            </a>
           </div>
         </div>
 
