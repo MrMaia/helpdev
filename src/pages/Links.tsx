@@ -1,16 +1,34 @@
-// src/pages/Links.tsx
+// pages/Links.tsx
+import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
+import ListaLinks, { LinkItem } from "../components/ListaLinks"; // Agora importando o tipo LinkItem
+import Navbar from "../components/Navbar";
 
 export default function Links() {
-  const { slug } = useParams();
+  const { categorySlug } = useParams<{ categorySlug: string }>();
+  const [links, setLinks] = useState<LinkItem[]>([]); // Tipando corretamente o estado links com LinkItem
 
-  // Aqui você poderia buscar os links de acordo com o slug
-  // Por exemplo: fetch(`/api/links/${slug}`) ou um objeto local
+  useEffect(() => {
+    fetch("/data.json")
+      .then((response) => response.json())
+      .then((data) => {
+        const filteredLinks = data.links.filter(
+          (link: LinkItem) => link.categoriaSlug === categorySlug
+        );
+        setLinks(filteredLinks);
+      })
+      .catch((error) => console.error("Erro ao carregar dados dos links:", error));
+  }, [categorySlug]);
 
   return (
-    <div className="min-h-screen bg-black text-white p-6">
-      <h1 className="text-4xl font-bold mb-4">Categoria: {slug}</h1>
-      <p className="text-gray-400">Aqui serão exibidos os links da categoria "{slug}"</p>
+    <div className="min-h-screen flex flex-col">
+      <Navbar />
+      <div className="bg-black p-6 flex-1 md:text-center">
+        <h1 className="text-2xl font-bold mb-6 text-white">Links</h1>
+        <div className="bg-black p-6 rounded-lg shadow">
+          <ListaLinks links={links} />
+        </div>
+      </div>
     </div>
   );
 }

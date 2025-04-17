@@ -9,7 +9,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/categorias" element={<Categorias />} />
-      <Route path="/categorias/:slug" element={<Links />} />
+      <Route path="/links/:categorySlug" element={<Links />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   );

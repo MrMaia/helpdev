@@ -1,0 +1,52 @@
+{
+  "categorias": [
+    { "id": 1, "name": "Frontend", "slug": "frontend" },
+    { "id": 2, "name": "Backend", "slug": "backend" },
+    { "id": 3, "name": "API", "slug": "api" },
+    { "id": 4, "name": "Imagens", "slug": "imagens" },
+    { "id": 5, "name": "IAs", "slug": "ias" },
+    { "id": 6, "name": "TESTE1", "slug": "teste1" },
+    { "id": 7, "name": "TESTE2", "slug": "teste2" },
+    { "id": 8, "name": "TESTE3", "slug": "teste3" },
+    { "id": 9, "name": "TESTE4", "slug": "teste4" },
+    { "id": 10, "name": "TESTE5", "slug": "teste5" },
+    { "id": 11, "name": "TESTE6", "slug": "teste6" },
+    { "id": 12, "name": "TESTE7", "slug": "teste7" },
+    { "id": 13, "name": "TESTE8", "slug": "teste8" },
+    { "id": 14, "name": "TESTE9", "slug": "teste9" },
+    { "id": 15, "name": "TESTE10", "slug": "teste10" },
+    { "id": 16, "name": "TESTE11", "slug": "teste11" },
+    { "id": 17, "name": "TESTE12", "slug": "teste12" },
+    { "id": 18, "name": "TESTE13", "slug": "teste13" },
+    { "id": 19, "name": "TESTE14", "slug": "teste14" },
+    { "id": 20, "name": "TESTE15", "slug": "teste15" },
+    { "id": 21, "name": "TESTE16", "slug": "teste16" },
+    { "id": 22, "name": "TESTE17", "slug": "teste17" }
+  ],
+  "links": [
+    {
+      "categoriaSlug": "frontend",
+      "title": "React",
+      "url": "https://reactjs.org",
+      "description": "Uma biblioteca JavaScript para construir interfaces de usuário."
+    },
+    {
+      "categoriaSlug": "frontend",
+      "title": "Vue",
+      "url": "https://vuejs.org",
+      "description": "Uma framework JavaScript progressiva para construir interfaces de usuário."
+    },
+    {
+      "categoriaSlug": "backend",
+      "title": "Node.js",
+      "url": "https://nodejs.org",
+      "description": "Uma plataforma para desenvolvimento de aplicações de rede escaláveis."
+    },
+    {
+      "categoriaSlug": "api",
+      "title": "Postman",
+      "url": "https://postman.com",
+      "description": "Uma plataforma colaborativa para desenvolvimento de APIs."
+    }
+  ]
+}
