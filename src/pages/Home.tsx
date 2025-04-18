@@ -8,6 +8,7 @@ import {
   FaUsers,
   FaBolt,
 } from "react-icons/fa6";
+import { IoWarningOutline } from "react-icons/io5";
 
 // Definição de tipos para as props do componente Card
 interface CardProps {
@@ -37,6 +38,13 @@ function Home() {
       <div className="flex flex-col lg:flex-row items-center lg:items-start justify-center w-full max-w-screen-lg mx-auto px-4">
         {/* Primeira Div */}
         <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-start text-center lg:text-left p-4">
+          <div role="alert" className="alert alert-warning">
+            <IoWarningOutline className="text-2xl" />
+            <span>
+              Aviso: O projeto está em constante atualização, isso é apenas o
+              MVP!
+            </span>
+          </div>
           <div className="badge badge-dash badge-warning badge-lg md:badge-xl mt-5 mb-7">
             Explore Dev Resources
           </div>
@@ -48,11 +56,18 @@ function Home() {
             código.
           </p>
           <div className="flex flex-col md:flex-row gap-5 justify-center lg:justify-start">
-            <a className="btn btn-outline btn-warning p-6 flex items-center gap-2" href="/categorias">
+            <a
+              className="btn btn-outline btn-warning p-6 flex items-center gap-2"
+              href="/categorias"
+            >
               <FaBook />
               Explorar Links <FaArrowRight />
             </a>
-            <a href="https://github.com/MrMaia/helpdev" className="btn btn-dash btn-warning p-6 flex items-center gap-2" target="_blank">
+            <a
+              href="https://github.com/MrMaia/helpdev"
+              className="btn btn-dash btn-warning p-6 flex items-center gap-2"
+              target="_blank"
+            >
               <FaGithub />
               Projeto no GitHub <FaArrowUpRightFromSquare />
             </a>

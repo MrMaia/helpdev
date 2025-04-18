@@ -1,59 +1,85 @@
-<<<<<<< HEAD
-# React + TypeScript + Vite
+# HelpDev
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+HelpDev é um projeto open-source que auxilia desenvolvedores a descobrir bibliotecas, ferramentas e recursos essenciais para otimizar seu fluxo de trabalho e aprimorar o desenvolvimento de software.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **TypeScript**: Superset do JavaScript que adiciona tipagem estática.
+- **Vite**: Ferramenta de build rápida e moderna.
+- **TailwindCSS**: Framework CSS utilitário para estilização.
+- **DaisyUI**: Componentes estilizados para TailwindCSS.
+- **React Router**: Gerenciamento de rotas no React.
+- **React Icons**: Ícones para React.
 
-## Expanding the ESLint configuration
+## Funcionalidades
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Categorias**: Navegue por categorias de ferramentas e recursos.
+- **Links**: Descubra links úteis organizados por categoria.
+- **Interface Responsiva**: Design adaptado para diferentes tamanhos de tela.
+- **Movido pela Comunidade**: Recursos e links verificados pela comunidade.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## Estrutura do Projeto
+
+```
+├── public/
+│   ├── data.json          # Dados de categorias e links
+│   ├── helpdev.svg        # Ícone do projeto
+├── src/
+│   ├── components/        # Componentes reutilizáveis
+│   ├── pages/             # Páginas do projeto
+│   ├── assets/            # Recursos visuais
+│   ├── App.tsx            # Configuração de rotas
+│   ├── main.tsx           # Ponto de entrada do React
+│   ├── index.css          # Estilos globais
+├── .gitignore             # Arquivos ignorados pelo Git
+├── package.json           # Dependências e scripts do projeto
+├── tsconfig.json          # Configuração do TypeScript
+├── vite.config.ts         # Configuração do Vite
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Como Executar o Projeto
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/MrMaia/helpdev.git
+   cd helpdev
+   ```
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
-=======
-# helpdev
-Projeto open-source que auxilia desenvolvedores a descobrir bibliotecas, ferramentas e recursos essenciais para otimizar seu fluxo de trabalho e aprimorar o desenvolvimento de software.
->>>>>>> 6354e6e9a41b2514c91fbf82372da7f510eec875
+2. Instale as dependências:
+   ```bash
+   npm install
+   ```
+
+3. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm run dev
+   ```
+
+4. Acesse o projeto no navegador:
+   ```
+   http://localhost:5173
+   ```
+
+## Contribuindo
+
+Contribuições são bem-vindas! Siga os passos abaixo para contribuir:
+
+1. Faça um fork do repositório.
+2. Crie uma branch para sua feature ou correção:
+   ```bash
+   git checkout -b minha-feature
+   ```
+3. Faça as alterações necessárias e commit:
+   ```bash
+   git commit -m "Descrição da minha feature"
+   ```
+4. Envie suas alterações:
+   ```bash
+   git push origin minha-feature
+   ```
+5. Abra um Pull Request.
+
+## Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
