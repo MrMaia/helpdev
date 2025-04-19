@@ -9,15 +9,12 @@ import {
   FaBolt,
 } from "react-icons/fa6";
 import { IoWarningOutline } from "react-icons/io5";
-
-// Definição de tipos para as props do componente Card
 interface CardProps {
-  Icon: React.ElementType; // Tipo para componentes React
+  Icon: React.ElementType;
   title: string;
   text: string;
 }
 
-// Componente Card para reaproveitar a estrutura
 function Card({ Icon, title, text }: CardProps) {
   return (
     <div className="card card-border border-amber-400 w-full">
@@ -34,24 +31,31 @@ function Card({ Icon, title, text }: CardProps) {
 
 function Home() {
   return (
-    <div className="min-h-screen p-4 bg-black flex items-center justify-center">
+    <div
+      className="min-h-screen p-4 bg-black flex items-center justify-center"
+      style={{
+        backgroundImage: "url('/bg1.svg')", // Caminho corrigido
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat", // Garante que o background não se repita
+      }}
+    >
       <div className="flex flex-col lg:flex-row items-center lg:items-start justify-center w-full max-w-screen-lg mx-auto px-4">
         {/* Primeira Div */}
         <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-start text-center lg:text-left p-4">
           <div role="alert" className="alert alert-warning">
             <IoWarningOutline className="text-2xl" />
             <span>
-              Aviso: O projeto está em constante atualização, isso é apenas o
-              MVP!
+              Aviso: O projeto está em constante evolução. Esta é apenas a versão MVP e não representa a versão final.
             </span>
           </div>
           <div className="badge badge-dash badge-warning badge-lg md:badge-xl mt-5 mb-7">
             Explore Dev Resources
           </div>
-          <h1 className="text-5xl md:text-7xl font-bold mb-3">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-3">
             A Biblioteca Definitiva para <a className="text-amber-300">Devs</a>.
           </h1>
-          <p className="text-xl text-gray-500 mb-7">
+          <p className="text-lg md:text-xl text-gray-500 mb-7">
             Explore links, ferramentas e recursos essenciais para acelerar seu
             código.
           </p>
@@ -78,18 +82,18 @@ function Home() {
         <div className="w-full lg:w-1/2 flex flex-col gap-5 p-4">
           <Card
             Icon={FaShield}
-            title="Fontes Seguras"
-            text="Todas as fontes são verificadas e monitoradas quanto à segurança e confiabilidade."
+            title="Fontes Confiáveis"
+            text="Todos os recursos e links são cuidadosamente verificados para garantir segurança e confiabilidade."
           />
           <Card
             Icon={FaBolt}
-            title="Acesso Rápido"
-            text="Acesso rápido e fácil a milhares de jogos de fontes verificadas."
+            title="Acesso Simplificado"
+            text="Encontre rapidamente ferramentas e conteúdos essenciais para desenvolvedores, organizados de forma prática."
           />
           <Card
             Icon={FaUsers}
-            title="Movido pela Comunidade"
-            text="Participação ativa da comunidade na verificação e avaliação das fontes."
+            title="Colaboração da Comunidade"
+            text="Conte com a participação ativa da comunidade para validar e sugerir novos recursos e links."
           />
         </div>
       </div>
