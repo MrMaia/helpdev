@@ -34,10 +34,10 @@ function Home() {
     <div
       className="min-h-screen p-4 bg-black flex items-center justify-center"
       style={{
-        backgroundImage: "url('/bg1.svg')", // Caminho corrigido
+        backgroundImage: "url('/bg1.svg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
-        backgroundRepeat: "no-repeat", // Garante que o background não se repita
+        backgroundRepeat: "no-repeat",
       }}
     >
       <div className="flex flex-col lg:flex-row items-center lg:items-start justify-center w-full max-w-screen-lg mx-auto px-4">

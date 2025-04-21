@@ -1,13 +1,10 @@
-// components/ListaLinks.tsx
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
-
-// Exportando a interface LinkItem
 export interface LinkItem {
   categoriaSlug: string;
   title: string;
   url: string;
-  description: string;  // Adicionando a propriedade description
+  description: string;
 }
 
 interface ListaLinksProps {
@@ -33,7 +30,7 @@ export default function ListaLinks({ links }: ListaLinksProps) {
         {filteredLinks.map((link, index) => (
           <a
             key={index}
-            href={link.url}  // Usando o href para redirecionar ao clicar
+            href={link.url}
             target="_blank"
             rel="noopener noreferrer"
             className="block p-4 bg-gradient-to-br from-yellow-400 via-yellow-500 to-yellow-600 rounded-lg shadow-lg transition-all duration-300 transform hover:scale-105 hover:bg-gradient-to-br from-yellow-500 via-yellow-600 to-yellow-700 hover:shadow-xl"

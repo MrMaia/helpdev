@@ -1,52 +1,120 @@
 {
   "categorias": [
-    { "id": 1, "name": "Frontend", "slug": "frontend" },
-    { "id": 2, "name": "Backend", "slug": "backend" },
-    { "id": 3, "name": "API", "slug": "api" },
-    { "id": 4, "name": "Imagens", "slug": "imagens" },
-    { "id": 5, "name": "IAs", "slug": "ias" },
-    { "id": 6, "name": "TESTE1", "slug": "teste1" },
-    { "id": 7, "name": "TESTE2", "slug": "teste2" },
-    { "id": 8, "name": "TESTE3", "slug": "teste3" },
-    { "id": 9, "name": "TESTE4", "slug": "teste4" },
-    { "id": 10, "name": "TESTE5", "slug": "teste5" },
-    { "id": 11, "name": "TESTE6", "slug": "teste6" },
-    { "id": 12, "name": "TESTE7", "slug": "teste7" },
-    { "id": 13, "name": "TESTE8", "slug": "teste8" },
-    { "id": 14, "name": "TESTE9", "slug": "teste9" },
-    { "id": 15, "name": "TESTE10", "slug": "teste10" },
-    { "id": 16, "name": "TESTE11", "slug": "teste11" },
-    { "id": 17, "name": "TESTE12", "slug": "teste12" },
-    { "id": 18, "name": "TESTE13", "slug": "teste13" },
-    { "id": 19, "name": "TESTE14", "slug": "teste14" },
-    { "id": 20, "name": "TESTE15", "slug": "teste15" },
-    { "id": 21, "name": "TESTE16", "slug": "teste16" },
-    { "id": 22, "name": "TESTE17", "slug": "teste17" }
+    { "id": 1, "name": "Desafios",    "slug": "desafios" },
+    { "id": 2, "name": "Inspiração",   "slug": "inspiracao" },
+    { "id": 3, "name": "Hospedagem",   "slug": "hospedagem" },
+    { "id": 4, "name": "Templates",    "slug": "templates" },
+    { "id": 5, "name": "Cores",        "slug": "cores" },
+    { "id": 6, "name": "Gradientes",   "slug": "gradientes" },
+    { "id": 7, "name": "Botões",       "slug": "botoes" },
+    { "id": 8, "name": "Remoto",       "slug": "remoto" },
+    { "id": 9, "name": "CSS",          "slug": "css" },
+    { "id": 10, "name": "Ícones",      "slug": "icones" },
+    { "id": 11, "name": "Online",      "slug": "online" },
+    { "id": 12, "name": "Ilustrações", "slug": "ilustracoes" },
+    { "id": 13, "name": "Divisores",   "slug": "divisores" },
+    { "id": 14, "name": "Animações",   "slug": "animacoes" },
+    { "id": 15, "name": "Geradores",   "slug": "geradores" },
+    { "id": 16, "name": "APIs",        "slug": "apis" }
   ],
   "links": [
-    {
-      "categoriaSlug": "frontend",
-      "title": "React",
-      "url": "https://reactjs.org",
-      "description": "Uma biblioteca JavaScript para construir interfaces de usuário."
-    },
-    {
-      "categoriaSlug": "frontend",
-      "title": "Vue",
-      "url": "https://vuejs.org",
-      "description": "Uma framework JavaScript progressiva para construir interfaces de usuário."
-    },
-    {
-      "categoriaSlug": "backend",
-      "title": "Node.js",
-      "url": "https://nodejs.org",
-      "description": "Uma plataforma para desenvolvimento de aplicações de rede escaláveis."
-    },
-    {
-      "categoriaSlug": "api",
-      "title": "Postman",
-      "url": "https://postman.com",
-      "description": "Uma plataforma colaborativa para desenvolvimento de APIs."
-    }
+    { "categoriaSlug": "desafios",    "title": "Codier",                    "url": "https://codier.io",                                         "description": "Desafios práticos de front-end e back-end." },
+    { "categoriaSlug": "desafios",    "title": "Frontend Mentor",           "url": "https://www.frontendmentor.io",                             "description": "Projetos de UI para aprimorar habilidades de design." },
+    { "categoriaSlug": "desafios",    "title": "Drawerrr",                  "url": "https://drawerrr.com/challenge",                            "description": "Desafios criativos de layout e interação." },
+    { "categoriaSlug": "desafios",    "title": "UX Tools",                  "url": "https://uxtools.co",                                        "description": "Ferramentas úteis para designers de UX/UI." },
+    { "categoriaSlug": "desafios",    "title": "Daily UI",                 "url": "https://www.dailyui.co",                                    "description": "Sequência diária de desafios de interface." },
+    { "categoriaSlug": "desafios",    "title": "Sharpen",                   "url": "https://sharpen.design",                                   "description": "Exercícios de design e ilustração." },
+    { "categoriaSlug": "desafios",    "title": "DevChallenge V2",          "url": "https://devchallenge-v2.vercel.app",                        "description": "Desafios de código em React e outras tecnologias." },
+    { "categoriaSlug": "desafios",    "title": "CodePen Challenges",       "url": "https://codepen.io/challenges",                             "description": "Desafios de HTML, CSS e JavaScript no CodePen." },
+    { "categoriaSlug": "desafios",    "title": "App Ideas",                "url": "https://github.com/florinpop17/app-ideas",                   "description": "Repositório de ideias de aplicativos para praticar." },
+    { "categoriaSlug": "desafios",    "title": "DevChallenges.io",         "url": "https://devchallenges.io",                                  "description": "Plataforma com exercícios de front-end." },
+    { "categoriaSlug": "desafios",    "title": "DevChallenge.it",          "url": "https://www.devchallenge.it",                               "description": "Desafios de desenvolvimento web em diferentes níveis." },
+    { "categoriaSlug": "desafios",    "title": "Uiverse",                  "url": "https://uiverse.io/challenges",                             "description": "Desafios de componentes de UI prontos para usar." },
+
+    { "categoriaSlug": "inspiracao",  "title": "Land-book",                 "url": "https://land-book.com",                                     "description": "Galeria de sites com landing pages inspiradoras." },
+    { "categoriaSlug": "inspiracao",  "title": "Sitesee",                   "url": "https://sitesee.co",                                        "description": "Coleção de designs de sites modernos." },
+    { "categoriaSlug": "inspiracao",  "title": "CollectUI",                 "url": "https://collectui.com",                                     "description": "Mostruário de interfaces de usuário reais." },
+    { "categoriaSlug": "inspiracao",  "title": "Hipfolio",                  "url": "https://hipfolio.co",                                       "description": "Portfólios criativos para inspiração." },
+    { "categoriaSlug": "inspiracao",  "title": "Dribbble",                  "url": "https://dribbble.com",                                      "description": "Comunidade de designers compartilhando trabalhos." },
+
+    { "categoriaSlug": "hospedagem",  "title": "InfinityFree",             "url": "https://www.infinityfree.com",                              "description": "Hospedagem web gratuita com recursos ilimitados." },
+    { "categoriaSlug": "hospedagem",  "title": "AwardSpace",               "url": "https://www.awardspace.com",                                "description": "Plano gratuito de hospedagem e domínio." },
+    { "categoriaSlug": "hospedagem",  "title": "GitHub Pages",             "url": "https://pages.github.com",                                  "description": "Hospede sites estáticos diretamente do GitHub." },
+    { "categoriaSlug": "hospedagem",  "title": "Netlify",                  "url": "https://www.netlify.com",                                   "description": "Deploy automático de sites JAMstack." },
+
+    { "categoriaSlug": "templates",   "title": "UIdeck",                    "url": "https://uideck.com",                                        "description": "Coleção de templates HTML gratuitos." },
+    { "categoriaSlug": "templates",   "title": "Uiverse Elements",         "url": "https://uiverse.io/elements",                               "description": "Biblioteca de componentes UI prontos." },
+    { "categoriaSlug": "templates",   "title": "Bootsnipp",                 "url": "https://bootsnipp.com",                                     "description": "Snippets e templates para Bootstrap." },
+    { "categoriaSlug": "templates",   "title": "TemplateMo",               "url": "https://templatemo.com",                                    "description": "Templates HTML5 gratuitos para diversos usos." },
+    { "categoriaSlug": "templates",   "title": "ThemeWagon",               "url": "https://themewagon.com/theme-price/free/?orderby=download_count", "description": "Templates gratuitos e populares." },
+    { "categoriaSlug": "templates",   "title": "Free-CSS",                 "url": "https://www.free-css.com",                                  "description": "Templates e layouts CSS gratuitos." },
+    { "categoriaSlug": "templates",   "title": "OnePageLove",              "url": "https://onepagelove.com/templates/free-templates",          "description": "Templates de página única grátis." },
+    { "categoriaSlug": "templates",   "title": "FreeHTML5",                "url": "https://freehtml5.co",                                      "description": "Downloads de templates HTML5 gratuitos." },
+    { "categoriaSlug": "templates",   "title": "HTML5UP",                  "url": "https://html5up.net",                                       "description": "Templates responsivos gratuitos." },
+    { "categoriaSlug": "templates",   "title": "Bootstraptaste",           "url": "https://bootstraptaste.com",                                "description": "Templates baseados em Bootstrap." },
+    { "categoriaSlug": "templates",   "title": "Untree",                   "url": "https://untree.co",                                         "description": "Templates modernos gratuitos." },
+    { "categoriaSlug": "templates",   "title": "ThemeFisher",              "url": "https://themefisher.com/products",                          "description": "Coleção de temas gratuitos e pagos." },
+    { "categoriaSlug": "templates",   "title": "UICookies",                "url": "https://uicookies.com",                                     "description": "Templates de e-mail e web gratuitos." },
+    { "categoriaSlug": "templates",   "title": "HTMLCodex",                "url": "https://htmlcodex.com/template",                            "description": "Templates web gratuitos e premium." },
+    { "categoriaSlug": "templates",   "title": "TooPlate",                 "url": "https://www.tooplate.com/free-templates",                   "description": "Templates HTML/CSS gratuitos." },
+    { "categoriaSlug": "templates",   "title": "BootstrapThemes",          "url": "https://bootstrapthemes.co",                                "description": "Temas gratuitos para Bootstrap." },
+    { "categoriaSlug": "templates",   "title": "DesignStub",               "url": "https://www.designstub.com",                                "description": "Templates e kits de UI gratuitos." },
+    { "categoriaSlug": "templates",   "title": "TemplateFound.",           "url": "https://www.templatefoundation.com",                        "description": "Recursos e templates gratuitos." },
+    { "categoriaSlug": "templates",   "title": "MailBakery",               "url": "https://mailbakery.com/template-store/free-html-email-templates", "description": "Templates de e-mail grátis e de qualidade." },
+
+    { "categoriaSlug": "cores",       "title": "Couleur",                  "url": "https://couleur.io",                                        "description": "Geração de paletas de cores personalizadas." },
+    { "categoriaSlug": "cores",       "title": "HappyHues",                "url": "https://www.happyhues.co",                                  "description": "Paletas de cores harmoniosas para UI." },
+    { "categoriaSlug": "cores",       "title": "Coolors",                  "url": "https://coolors.co",                                        "description": "Ferramenta rápida de palette de cores." },
+    { "categoriaSlug": "cores",       "title": "FlatUI",                   "url": "https://flatuicolors.com",                                  "description": "Cores planas inspiradas em flat design." },
+    { "categoriaSlug": "cores",       "title": "AdobeWheel",               "url": "https://color.adobe.com/pt/create/color-wheel",             "description": "Criador de esquemas de cores da Adobe." },
+    { "categoriaSlug": "cores",       "title": "Paletton",                 "url": "https://paletton.com",                                      "description": "Geração interativa de paletas de cores." },
+    { "categoriaSlug": "cores",       "title": "ColorHunt",                "url": "https://colorhunt.co",                                      "description": "Coleções de paletas de cores gratuitas." },
+    { "categoriaSlug": "cores",       "title": "Pigment",                  "url": "https://pigment.shapefactory.co",                           "description": "Ferramenta de combinação de cores avançada." },
+
+    { "categoriaSlug": "gradientes",  "title": "GradientHunt",             "url": "https://gradienthunt.com",                                 "description": "Galeria de gradientes prontos para usar." },
+    { "categoriaSlug": "gradientes",  "title": "Grabient",                 "url": "https://www.grabient.com",                                  "description": "Gerador fácil de gradientes CSS." },
+    { "categoriaSlug": "gradientes",  "title": "WebGradients",             "url": "https://webgradients.com",                                 "description": "Coleção de gradientes SVG gratuitos." },
+
+    { "categoriaSlug": "botoes",      "title": "CSS Buttons",              "url": "https://www.bestcssbuttongenerator.com",                   "description": "Gerador de estilos de botão em CSS." },
+
+    { "categoriaSlug": "remoto",      "title": "RemoteOK",                 "url": "https://remoteok.com",                                     "description": "Vagas remotas em tecnologia e marketing." },
+    { "categoriaSlug": "remoto",      "title": "Upwork",                   "url": "https://www.upwork.com",                                   "description": "Plataforma de trabalho freelance global." },
+
+    { "categoriaSlug": "css",         "title": "FancyRadius",              "url": "https://9elements.github.io/fancy-border-radius/",         "description": "Gerador de bordas CSS com formas personalizadas." },
+
+    { "categoriaSlug": "icones",      "title": "FontAwesome",              "url": "https://fontawesome.com",                                  "description": "Biblioteca popular de ícones vetoriais." },
+    { "categoriaSlug": "icones",      "title": "Heroicons",                "url": "https://heroicons.dev",                                    "description": "Conjunto de ícones gratuitos da Tailwind Labs." },
+    { "categoriaSlug": "icones",      "title": "IconSVG",                  "url": "https://iconsvg.xyz",                                     "description": "Repositório de ícones SVG open source." },
+    { "categoriaSlug": "icones",      "title": "Icons8",                   "url": "https://icons8.com/icons",                                 "description": "Ícones gratuitos e premium para UI." },
+    { "categoriaSlug": "icones",      "title": "EvaIcons",                 "url": "https://akveo.github.io/eva-icons/#/",                     "description": "Ícones personalizáveis para design." },
+    { "categoriaSlug": "icones",      "title": "Feather",                  "url": "https://feathericons.com",                                 "description": "Ícones leves e simples em SVG." },
+    { "categoriaSlug": "icones",      "title": "Bootstrap",                "url": "https://icons.getbootstrap.com",                           "description": "Ícones oficiais do Bootstrap." },
+    { "categoriaSlug": "icones",      "title": "Flaticon",                 "url": "https://www.flaticon.com/br",                              "description": "Milhares de ícones vetoriais grátis." },
+    { "categoriaSlug": "icones",      "title": "ShapeSo",                  "url": "https://shape.so",                                         "description": "Pack de SVG shapes para design." },
+    { "categoriaSlug": "icones",      "title": "Icon-Icons",               "url": "https://icon-icons.com",                                  "description": "Ícones em múltiplos formatos e estilos." },
+    { "categoriaSlug": "icones",      "title": "Boxicons",                 "url": "https://boxicons.com",                                     "description": "Ícones de linha e sólidos para web." },
+
+    { "categoriaSlug": "online",      "title": "Replit",                   "url": "https://replit.com",                                       "description": "IDE online colaborativa para várias linguagens." },
+    { "categoriaSlug": "online",      "title": "CodePen",                  "url": "https://codepen.io",                                       "description": "Sandbox de front-end para prototipagem rápida." },
+
+    { "categoriaSlug": "ilustracoes", "title": "Error404",                 "url": "https://error404.fun",                                     "description": "Ilustrações minimalistas grátis." },
+    { "categoriaSlug": "ilustracoes", "title": "Icons8 Illus.",            "url": "https://icons8.com.br/illustrations",                     "description": "Galeria de ilustrações vetoriais." },
+    { "categoriaSlug": "ilustracoes", "title": "DeleSign",                 "url": "https://free-designs.delesign.com",                       "description": "Modelos de design e ilustrações gratuitos." },
+    { "categoriaSlug": "ilustracoes", "title": "PixelTrue",                "url": "https://www.pixeltrue.com",                                "description": "Ilustrações profissionais grátis." },
+    { "categoriaSlug": "ilustracoes", "title": "DrawKit",                  "url": "https://www.drawkit.com",                                  "description": "Coleção de kits de ilustração SVG." },
+    { "categoriaSlug": "ilustracoes", "title": "Humaaans",                 "url": "https://www.humaaans.com",                                 "description": "Personagens editáveis em vetor." },
+    { "categoriaSlug": "ilustracoes", "title": "OpenDoodles",              "url": "https://www.opendoodles.com",                              "description": "Pack gratuito de doodles vetoriais." },
+    { "categoriaSlug": "ilustracoes", "title": "Storyset",                 "url": "https://storyset.com",                                     "description": "Ilustrações animadas e estáticas para projetos." },
+    { "categoriaSlug": "ilustracoes", "title": "unDraw",                   "url": "https://undraw.co",                                        "description": "Ilustrações SVG personalizáveis." },
+    { "categoriaSlug": "ilustracoes", "title": "Kapwing404",               "url": "https://www.kapwing.com/404-illustrations",                "description": "Coleção de ilustrações de páginas 404." },
+
+    { "categoriaSlug": "divisores",   "title": "Shapedividers",            "url": "https://shapedividers.com",                               "description": "Formas SVG para separadores de página." },
+
+    { "categoriaSlug": "animacoes",   "title": "WaitAnimate",              "url": "https://waitanimate.wstone.uk",                           "description": "Biblioteca de animações CSS fáceis de usar." },
+
+    { "categoriaSlug": "geradores",   "title": "HTML‑CSS‑JS",              "url": "https://html-css-js.com/css/generator/",                  "description": "Ferramentas para gerar código CSS e HTML." },
+    { "categoriaSlug": "geradores",   "title": "Neumorphism",              "url": "https://neumorphism.io",                                  "description": "Gerador de estilo neumórfico em CSS." },
+
+    { "categoriaSlug": "apis",        "title": "RapidAPI",                 "url": "https://rapidapi.com",                                    "description": "Marketplace de APIs prontas para uso." }
   ]
 }
