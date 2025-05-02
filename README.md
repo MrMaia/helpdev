@@ -1,6 +1,6 @@
 # HelpDev
 
-HelpDev é um projeto open-source que auxilia desenvolvedores a descobrir bibliotecas, ferramentas e recursos essenciais para otimizar seu fluxo de trabalho e aprimorar o desenvolvimento de software.
+HelpDev é uma plataforma que conecta desenvolvedores a um acervo curado de ferramentas, tutoriais e integrações, acelerando o fluxo de trabalho e promovendo a colaboração.
 
 ## Tecnologias Utilizadas
 
@@ -15,9 +15,10 @@ HelpDev é um projeto open-source que auxilia desenvolvedores a descobrir biblio
 ## Funcionalidades
 
 - **Categorias**: Navegue por categorias de ferramentas e recursos.
-- **Links**: Descubra links úteis organizados por categoria.
-- **Interface Responsiva**: Design adaptado para diferentes tamanhos de tela.
-- **Movido pela Comunidade**: Recursos e links verificados pela comunidade.
+- **Links Úteis**: Descubra links organizados por categoria com descrições detalhadas.
+- **Interface Responsiva**: Design adaptado para diferentes dispositivos.
+- **Níveis de Confiabilidade**: Classificação de links com base em segurança e recomendação.
+- **Colaboração Aberta**: Recursos validados pela comunidade.
 
 ## Estrutura do Projeto
 
@@ -25,10 +26,17 @@ HelpDev é um projeto open-source que auxilia desenvolvedores a descobrir biblio
 ├── public/
 │   ├── data.json          # Dados de categorias e links
 │   ├── helpdev.svg        # Ícone do projeto
+│   ├── logo.png           # Logotipo do projeto
 ├── src/
 │   ├── components/        # Componentes reutilizáveis
+│   │   ├── Background.tsx # Componente de fundo
+│   │   ├── Navbar.tsx     # Barra de navegação
 │   ├── pages/             # Páginas do projeto
-│   ├── assets/            # Recursos visuais
+│   │   ├── Home.tsx       # Página inicial
+│   │   ├── Categorias.tsx # Página de categorias
+│   │   ├── Links.tsx      # Página de links por categoria
+│   │   ├── Sobre.tsx      # Página sobre o projeto
+│   │   ├── NotFound.tsx   # Página de erro 404
 │   ├── App.tsx            # Configuração de rotas
 │   ├── main.tsx           # Ponto de entrada do React
 │   ├── index.css          # Estilos globais
@@ -83,3 +91,9 @@ Contribuições são bem-vindas! Siga os passos abaixo para contribuir:
 ## Licença
 
 Este projeto está licenciado sob a [MIT License](LICENSE).
+
+## Contato
+
+- **GitHub**: [MrMaia](https://github.com/MrMaia)
+- **LinkedIn**: [Allan Maia](https://www.linkedin.com/in/allan-maia51/)
+- **Site**: [allanmaia.com](https://allanmaia.com)
